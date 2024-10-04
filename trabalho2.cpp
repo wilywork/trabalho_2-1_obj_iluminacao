@@ -119,8 +119,8 @@ void carregarObjeto(string nomeArquivo) {
             // leitura de coordenadas de textura
             vector<float> coordenadaTextura(2);
             arquivo >> coordenadaTextura[0] >> coordenadaTextura[1];
-            // inverter a coordenada T
-            coordenadaTextura[1] = 1.0f - coordenadaTextura[1];
+            // // inverter a coordenada T
+            // coordenadaTextura[1] = 1.0f - coordenadaTextura[1];
             coordenadasTextura.push_back(coordenadaTextura);
         }
         else if (tipo == "f") {
